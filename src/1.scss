@@ -1,0 +1,13 @@
+$color: red;
+body {
+  p {
+    color: $color;
+    text-align: center;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: url('../public/logo.jpeg');
+    background-size: contain;
+  }
+}

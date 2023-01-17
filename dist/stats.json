@@ -1,0 +1,3846 @@
+{
+  "hash": "8eb06635aa62bd2429c3",
+  "version": "5.64.4",
+  "time": 818,
+  "builtAt": 1673940006856,
+  "publicPath": "auto",
+  "outputPath": "/Users/qiugonghai/meitu/webpack-test/dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.8eb06635.css",
+      "main.8eb06635.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "static/img/logo.0e08.jpeg",
+      "size": 99300,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "sourceFilename": "public/logo.jpeg",
+        "size": 99300
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [
+        179
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.8eb06635.js",
+      "size": 14298,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "fullhash": "8eb06635",
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 14298
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 363,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 363
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.8eb06635.css",
+      "size": 177,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "fullhash": "8eb06635",
+        "size": 177
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 36725,
+      "sizes": {
+        "javascript": 6692,
+        "css/mini-extract": 254,
+        "runtime": 29779
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.8eb06635.css",
+        "main.8eb06635.js"
+      ],
+      "auxiliaryFiles": [
+        "static/img/logo.0e08.jpeg"
+      ],
+      "hash": "6fe78f5ea35a0ce1739e",
+      "childrenByOrder": {},
+      "id": 179,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 4470,
+          "sizes": {
+            "javascript": 4470
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "name": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "issuerName": "./src/index.css",
+          "issuerPath": [
+            {
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+              "name": "./src/index.js",
+              "id": 138
+            },
+            {
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+              "name": "./src/index.css",
+              "id": 577
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 783,
+          "issuerId": 577,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "module": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "moduleName": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "resolvedModule": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "194:0-14",
+              "moduleId": 783,
+              "resolvedModuleId": 783
+            },
+            {
+              "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+              "module": "./src/1.scss",
+              "moduleName": "./src/1.scss",
+              "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+              "resolvedModule": "./src/1.scss",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "loc": "5:22-139",
+              "moduleId": 478,
+              "resolvedModuleId": 478
+            },
+            {
+              "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+              "module": "./src/index.css",
+              "moduleName": "./src/index.css",
+              "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+              "resolvedModule": "./src/index.css",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "loc": "5:22-139",
+              "moduleId": 577,
+              "resolvedModuleId": 577
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 194:0-14",
+            "Statement (VariableDeclaration) with side effects in source code at 10:0-46",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 811,
+          "sizes": {
+            "javascript": 811
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+          "name": "./node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+          "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "issuerName": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+              "name": "./src/index.js",
+              "id": 138
+            },
+            {
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+              "name": "./src/index.css",
+              "id": 577
+            },
+            {
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "name": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "id": 783
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 618,
+          "issuerId": 783,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "module": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "moduleName": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "resolvedModule": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./normalize-url",
+              "loc": "10:19-45",
+              "moduleId": 783,
+              "resolvedModuleId": 783
+            },
+            {
+              "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+              "module": "./node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+              "moduleName": "./node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+              "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+              "resolvedModule": "./node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "22:0-14",
+              "moduleId": 618,
+              "resolvedModuleId": 618
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 22:0-14",
+            "Statement (ExpressionStatement) with side effects in source code at 22:0-35:2",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 357,
+          "sizes": {
+            "javascript": 357
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "name": "./src/1.scss",
+          "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+              "name": "./src/index.js",
+              "id": 138
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 478,
+          "issuerId": 138,
+          "chunks": [
+            179
+          ],
+          "assets": [
+            "static/img/logo.0e08.jpeg"
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./1.scss",
+              "loc": "2:0-17",
+              "moduleId": 138,
+              "resolvedModuleId": 138
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 5:6-169",
+            "ModuleConcatenation bailout: Module uses Hot Module Replacement"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 357,
+          "sizes": {
+            "javascript": 357
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "name": "./src/index.css",
+          "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+              "name": "./src/index.js",
+              "id": 138
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 577,
+          "issuerId": 138,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./index.css",
+              "loc": "1:0-20",
+              "moduleId": 138,
+              "resolvedModuleId": 138
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 5:6-169",
+            "ModuleConcatenation bailout: Module uses Hot Module Replacement"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 697,
+          "sizes": {
+            "javascript": 697
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 138,
+          "issuerId": null,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 4:0-7:1",
+            "ModuleConcatenation bailout: Cannot concat with ./src/1.scss: Module uses Hot Module Replacement",
+            "ModuleConcatenation bailout: Cannot concat with ./src/index.css: Module uses Hot Module Replacement"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "css/mini-extract",
+          "size": 215,
+          "sizes": {
+            "css/mini-extract": 215
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "css|/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss|0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "issuerName": "./src/1.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+              "name": "./src/index.js",
+              "id": 138
+            },
+            {
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+              "name": "./src/1.scss",
+              "id": 478
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": 478,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+              "module": "./src/1.scss",
+              "moduleName": "./src/1.scss",
+              "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+              "resolvedModule": "./src/1.scss",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": 478,
+              "resolvedModuleId": 478
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "css/mini-extract",
+          "size": 39,
+          "sizes": {
+            "css/mini-extract": 39
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "css|/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css|0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "issuerName": "./src/index.css",
+          "issuerPath": [
+            {
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+              "name": "./src/index.js",
+              "id": 138
+            },
+            {
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+              "name": "./src/index.css",
+              "id": 577
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": 577,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+              "module": "./src/index.css",
+              "moduleName": "./src/index.css",
+              "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+              "resolvedModule": "./src/index.css",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": 577,
+              "resolvedModuleId": 577
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 2794,
+          "sizes": {
+            "runtime": 2794
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/css loading",
+          "name": "webpack/runtime/css loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 209,
+          "sizes": {
+            "runtime": 209
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get javascript update chunk filename",
+          "name": "webpack/runtime/get javascript update chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 163,
+          "sizes": {
+            "runtime": 163
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get mini-css chunk filename",
+          "name": "webpack/runtime/get mini-css chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 90,
+          "sizes": {
+            "runtime": 90
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get update manifest filename",
+          "name": "webpack/runtime/get update manifest filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 54,
+          "sizes": {
+            "runtime": 54
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/getFullHash",
+          "name": "webpack/runtime/getFullHash",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 9132,
+          "sizes": {
+            "runtime": 9132
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hot module replacement",
+          "name": "webpack/runtime/hot module replacement",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 14652,
+          "sizes": {
+            "runtime": 14652
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 1509,
+          "sizes": {
+            "runtime": 1509
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/load script",
+          "name": "webpack/runtime/load script",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 867,
+          "sizes": {
+            "runtime": 867
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "/Users/qiugonghai/meitu/webpack-test/src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 697,
+      "sizes": {
+        "javascript": 697
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+      "name": "./src/index.js",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 138,
+      "issuerId": null,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 4:0-7:1",
+        "ModuleConcatenation bailout: Cannot concat with ./src/1.scss: Module uses Hot Module Replacement",
+        "ModuleConcatenation bailout: Cannot concat with ./src/index.css: Module uses Hot Module Replacement"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 357,
+      "sizes": {
+        "javascript": 357
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+      "name": "./src/index.css",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/index.css",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 577,
+      "issuerId": 138,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./index.css",
+          "loc": "1:0-20",
+          "moduleId": 138,
+          "resolvedModuleId": 138
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 5:6-169",
+        "ModuleConcatenation bailout: Module uses Hot Module Replacement"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 357,
+      "sizes": {
+        "javascript": 357
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+      "name": "./src/1.scss",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 478,
+      "issuerId": 138,
+      "chunks": [
+        179
+      ],
+      "assets": [
+        "static/img/logo.0e08.jpeg"
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./1.scss",
+          "loc": "2:0-17",
+          "moduleId": 138,
+          "resolvedModuleId": 138
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 5:6-169",
+        "ModuleConcatenation bailout: Module uses Hot Module Replacement"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 4470,
+      "sizes": {
+        "javascript": 4470
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+      "name": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+      "issuerName": "./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "name": "./src/index.css",
+          "id": 577
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 783,
+      "issuerId": 577,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "module": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "moduleName": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "resolvedModule": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "194:0-14",
+          "moduleId": 783,
+          "resolvedModuleId": 783
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "module": "./src/1.scss",
+          "moduleName": "./src/1.scss",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "resolvedModule": "./src/1.scss",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "loc": "5:22-139",
+          "moduleId": 478,
+          "resolvedModuleId": 478
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "loc": "5:22-139",
+          "moduleId": 577,
+          "resolvedModuleId": 577
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 194:0-14",
+        "Statement (VariableDeclaration) with side effects in source code at 10:0-46",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "css/mini-extract",
+      "size": 39,
+      "sizes": {
+        "css/mini-extract": 39
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "css|/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css|0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/index.css",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+      "issuerName": "./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "name": "./src/index.css",
+          "id": 577
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": 577,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "module": "./src/index.css",
+          "moduleName": "./src/index.css",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "resolvedModule": "./src/index.css",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": 577,
+          "resolvedModuleId": 577
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "css/mini-extract",
+      "size": 215,
+      "sizes": {
+        "css/mini-extract": 215
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "css|/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss|0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+      "issuerName": "./src/1.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "name": "./src/1.scss",
+          "id": 478
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": 478,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "module": "./src/1.scss",
+          "moduleName": "./src/1.scss",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "resolvedModule": "./src/1.scss",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": 478,
+          "resolvedModuleId": 478
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 811,
+      "sizes": {
+        "javascript": 811
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+      "name": "./node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+      "issuerName": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "name": "./src/index.css",
+          "id": 577
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "name": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "id": 783
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 618,
+      "issuerId": 783,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "module": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "moduleName": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "resolvedModule": "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./normalize-url",
+          "loc": "10:19-45",
+          "moduleId": 783,
+          "resolvedModuleId": 783
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+          "module": "./node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+          "moduleName": "./node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+          "resolvedModule": "./node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "22:0-14",
+          "moduleId": 618,
+          "resolvedModuleId": 618
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 22:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 22:0-35:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 867,
+      "sizes": {
+        "javascript": 867
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+      "name": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+      "issuerName": "./src/1.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "name": "./src/1.scss",
+          "id": 478
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": 478,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "loader import",
+          "active": true,
+          "explanation": "",
+          "userRequest": "/Users/qiugonghai/meitu/webpack-test/src/1.scss.webpack[javascript/auto]!=!!!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "loc": "/Users/qiugonghai/meitu/webpack-test/src/1.scss.webpack[javascript/auto]!=!!!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 6:0-100",
+        "ModuleConcatenation bailout: Module uses module.id"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 466,
+      "sizes": {
+        "javascript": 466
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+      "name": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/index.css",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+      "issuerName": "./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "name": "./src/index.css",
+          "id": 577
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": 577,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "loader import",
+          "active": true,
+          "explanation": "",
+          "userRequest": "/Users/qiugonghai/meitu/webpack-test/src/index.css.webpack[javascript/auto]!=!!!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "loc": "/Users/qiugonghai/meitu/webpack-test/src/index.css.webpack[javascript/auto]!=!!!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 4:0-100",
+        "ModuleConcatenation bailout: Module uses module.id"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2318,
+      "sizes": {
+        "javascript": 2318
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/api.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+      "issuerName": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "name": "./src/index.css",
+          "id": 577
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "name": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "module": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "moduleName": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "resolvedModule": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "3:0-89",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "module": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "moduleName": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "resolvedModule": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "6:30-57",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "module": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "moduleName": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "resolvedModule": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "3:0-89",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "module": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "moduleName": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "resolvedModule": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "4:30-57",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/api.js",
+          "module": "./node_modules/css-loader/dist/runtime/api.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "7:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 7:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 7:0-102:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 598,
+      "sizes": {
+        "javascript": 598
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/getUrl.js",
+      "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/getUrl.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+      "issuerName": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "name": "./src/1.scss",
+          "id": 478
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "name": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "module": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "moduleName": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "resolvedModule": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "4:0-96",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "module": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "moduleName": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "resolvedModule": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/getUrl.js",
+          "loc": "7:41-72",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/getUrl.js",
+          "module": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/getUrl.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-29:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 64,
+      "sizes": {
+        "javascript": 64
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+      "name": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+      "issuerName": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "name": "./src/index.css",
+          "id": 577
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "name": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "module": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "moduleName": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "resolvedModule": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "loc": "2:0-111",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "module": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "moduleName": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "resolvedModule": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "loc": "6:58-98",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "module": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "moduleName": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "resolvedModule": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "loc": "2:0-111",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "module": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "moduleName": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/index.css",
+          "resolvedModule": "./src/index.css.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "loc": "4:58-98",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "module": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-5:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 71,
+      "sizes": {
+        "javascript": 71
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/url-loader/dist/cjs.js??ruleSet[1].rules[2].use[0]!/Users/qiugonghai/meitu/webpack-test/public/logo.jpeg",
+      "name": "./public/logo.jpeg",
+      "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/public/logo.jpeg",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+      "issuerName": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/src/index.js",
+          "name": "./src/index.js",
+          "id": 138
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "name": "./src/1.scss",
+          "id": 478
+        },
+        {
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "name": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [
+        "static/img/logo.0e08.jpeg"
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "module": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "moduleName": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/css-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/node_modules/sass-loader/dist/cjs.js!/Users/qiugonghai/meitu/webpack-test/src/1.scss",
+          "resolvedModule": "./src/1.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/1.scss",
+          "type": "new URL()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../public/logo.jpeg",
+          "loc": "5:36-83",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/url-loader/dist/cjs.js??ruleSet[1].rules[2].use[0]!/Users/qiugonghai/meitu/webpack-test/public/logo.jpeg",
+          "module": "./public/logo.jpeg",
+          "moduleName": "./public/logo.jpeg",
+          "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/url-loader/dist/cjs.js??ruleSet[1].rules[2].use[0]!/Users/qiugonghai/meitu/webpack-test/public/logo.jpeg",
+          "resolvedModule": "./public/logo.jpeg",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "1:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 1:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 1:0-71",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 267,
+      "sizes": {
+        "runtime": 267
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CompatGetDefaultExportRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 267,
+      "sizes": {
+        "runtime": 267
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": true,
+      "cached": true,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CompatGetDefaultExportRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 2794,
+      "sizes": {
+        "runtime": 2794
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/css loading",
+      "name": "webpack/runtime/css loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssLoadingRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 2794,
+      "sizes": {
+        "runtime": 2794
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": true,
+      "cached": true,
+      "identifier": "webpack/runtime/css loading",
+      "name": "webpack/runtime/css loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssLoadingRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 2794,
+      "sizes": {
+        "runtime": 2794
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/css loading",
+      "name": "webpack/runtime/css loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for DefinePropertyGettersRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": true,
+      "cached": true,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for DefinePropertyGettersRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 209,
+      "sizes": {
+        "runtime": 209
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get javascript update chunk filename",
+      "name": "webpack/runtime/get javascript update chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 163,
+      "sizes": {
+        "runtime": 163
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/get mini-css chunk filename",
+      "name": "webpack/runtime/get mini-css chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for GetChunkFilenameRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 163,
+      "sizes": {
+        "runtime": 163
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": true,
+      "cached": true,
+      "identifier": "webpack/runtime/get mini-css chunk filename",
+      "name": "webpack/runtime/get mini-css chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for GetChunkFilenameRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 163,
+      "sizes": {
+        "runtime": 163
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get mini-css chunk filename",
+      "name": "webpack/runtime/get mini-css chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 90,
+      "sizes": {
+        "runtime": 90
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get update manifest filename",
+      "name": "webpack/runtime/get update manifest filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 38,
+      "sizes": {
+        "runtime": 38
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/getFullHash",
+      "name": "webpack/runtime/getFullHash",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for GetFullHashRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 54,
+      "sizes": {
+        "runtime": 54
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": true,
+      "cached": true,
+      "identifier": "webpack/runtime/getFullHash",
+      "name": "webpack/runtime/getFullHash",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for GetFullHashRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 54,
+      "sizes": {
+        "runtime": 54
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/getFullHash",
+      "name": "webpack/runtime/getFullHash",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for HasOwnPropertyRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": true,
+      "cached": true,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for HasOwnPropertyRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 9132,
+      "sizes": {
+        "runtime": 9132
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/hot module replacement",
+      "name": "webpack/runtime/hot module replacement",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for HotModuleReplacementRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 9132,
+      "sizes": {
+        "runtime": 9132
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": true,
+      "cached": true,
+      "identifier": "webpack/runtime/hot module replacement",
+      "name": "webpack/runtime/hot module replacement",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for HotModuleReplacementRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 9132,
+      "sizes": {
+        "runtime": 9132
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hot module replacement",
+      "name": "webpack/runtime/hot module replacement",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 14652,
+      "sizes": {
+        "runtime": 14652
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1509,
+      "sizes": {
+        "runtime": 1509
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/load script",
+      "name": "webpack/runtime/load script",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for MakeNamespaceObjectRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": true,
+      "cached": true,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for MakeNamespaceObjectRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 106,
+      "sizes": {
+        "runtime": 106
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for PublicPathRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 106,
+      "sizes": {
+        "runtime": 106
+      },
+      "built": false,
+      "codeGenerated": false,
+      "buildTimeExecuted": true,
+      "cached": true,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for PublicPathRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 867,
+      "sizes": {
+        "runtime": 867
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/publicPath",
+      "name": "webpack/runtime/publicPath",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "main.8eb06635.css",
+          "size": 177
+        },
+        {
+          "name": "main.8eb06635.js",
+          "size": 14298
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 14475,
+      "auxiliaryAssets": [
+        {
+          "name": "static/img/logo.0e08.jpeg",
+          "size": 99300
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 99300,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "main.8eb06635.css",
+          "size": 177
+        },
+        {
+          "name": "main.8eb06635.js",
+          "size": 14298
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 14475,
+      "auxiliaryAssets": [
+        {
+          "name": "static/img/logo.0e08.jpeg",
+          "size": 99300
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 99300,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "727649b766cc0a711070",
+      "version": "5.64.4",
+      "time": 383,
+      "builtAt": 1673940006437,
+      "publicPath": "",
+      "outputPath": "/Users/qiugonghai/meitu/webpack-test/dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 1059,
+          "sizes": {
+            "javascript": 619,
+            "runtime": 440
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "dbb1db031e8a44e224df",
+          "childrenByOrder": {},
+          "id": 563,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 542,
+              "sizes": {
+                "javascript": 542
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/html-webpack-plugin/lib/loader.js!/Users/qiugonghai/meitu/webpack-test/src/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/index.html",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 411,
+              "issuerId": null,
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/html-webpack-plugin/lib/loader.js!/Users/qiugonghai/meitu/webpack-test/src/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/html-webpack-plugin/lib/loader.js!/Users/qiugonghai/meitu/webpack-test/src/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:102-116",
+                  "moduleId": 411,
+                  "resolvedModuleId": 411
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "/Users/qiugonghai/meitu/webpack-test/node_modules/html-webpack-plugin/lib/loader.js!/Users/qiugonghai/meitu/webpack-test/src/index.html",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:102-116",
+                "Statement (VariableDeclaration) with side effects in source code at 1:0-102",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/esm",
+              "layer": null,
+              "size": 77,
+              "sizes": {
+                "javascript": 77
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 163,
+              "issuerId": null,
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 88,
+              "sizes": {
+                "runtime": 88
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 27,
+              "sizes": {
+                "runtime": 27
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/publicPath",
+              "name": "webpack/runtime/publicPath",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 325,
+              "sizes": {
+                "runtime": 325
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/require chunk loading",
+              "name": "webpack/runtime/require chunk loading",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                563
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "/Users/qiugonghai/meitu/webpack-test/node_modules/html-webpack-plugin/lib/loader.js!/Users/qiugonghai/meitu/webpack-test/src/index.html"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 77,
+          "sizes": {
+            "javascript": 77
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 163,
+          "issuerId": null,
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 542,
+          "sizes": {
+            "javascript": 542
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/html-webpack-plugin/lib/loader.js!/Users/qiugonghai/meitu/webpack-test/src/index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "nameForCondition": "/Users/qiugonghai/meitu/webpack-test/src/index.html",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 411,
+          "issuerId": null,
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/html-webpack-plugin/lib/loader.js!/Users/qiugonghai/meitu/webpack-test/src/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "resolvedModuleIdentifier": "/Users/qiugonghai/meitu/webpack-test/node_modules/html-webpack-plugin/lib/loader.js!/Users/qiugonghai/meitu/webpack-test/src/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:102-116",
+              "moduleId": 411,
+              "resolvedModuleId": 411
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/qiugonghai/meitu/webpack-test/node_modules/html-webpack-plugin/lib/loader.js!/Users/qiugonghai/meitu/webpack-test/src/index.html",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:102-116",
+            "Statement (VariableDeclaration) with side effects in source code at 1:0-102",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 325,
+          "sizes": {
+            "runtime": 325
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            563
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
