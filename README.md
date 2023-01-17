@@ -44,13 +44,13 @@ cache: {
 - 在生成环境下打包默认会开启 js 压缩，但是当我们手动配置 optimization 选项之后，就不再默认对 js 进行压缩，需要我们手动去配置。  
 optimize-css-assets-webpack-plugin压缩css；  
 terser-webpack-plugin压缩js；  
-- tree-shaking
+- tree-shaking  
 剔除没有使用的代码，以降低包的体积；在 production 环境默认开启
 - 清除无用css  
 purgecss-webpack-plugin 会单独提取css并清除用不到的css；  
-- Scope Hoisting
+- Scope Hoisting  
 作用域提升，原理是将多个模块放在同一个作用域下，并重命名防止命名冲突，通过这种方式可以减少函数声明和内存开销。在 production 环境默认开启  
-- 代码分割
+- 代码分割  
 entry配置多个打包入口；  
 SplitChunks提取或分离代码的插件；主要作用是提取公共代码，防止代码被重复打包，拆分过大的 js 文件，合并零散的 js 文件。
 
